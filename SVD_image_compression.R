@@ -32,9 +32,6 @@ plot(as.cimg(approx50),main="(c) 50 singular Vectors",axes=FALSE)
 plot(as.cimg(megray),main="(d) Full image",axes=FALSE)
 
 
-
-
-
 library(imager)
 par(c(1,1))
 image<-load.image("/Users/sinuvasanrangasamy/Documents/GitHub/Linear_Algebra_with_R/rose.jpg")
@@ -71,3 +68,4 @@ for(j in c(5,10,25,35,50)){
 }
 
 plot(image,axes=FALSE,main="Rank=187")
+

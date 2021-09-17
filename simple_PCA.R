@@ -18,14 +18,3 @@ D <- inv(T) %*% t(x)
 y <- t(D)
 plot(y)
 
-# Inner product
-
-u <- c(1, 5, 0) 
-v <- c(1, 0, 3)
-
-
-sum(u * v) # inner product
-
-
-sqrt(sum(v * v)) # length of vector
-

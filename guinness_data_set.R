@@ -10,7 +10,9 @@ E<-rref(C)
 E
 E <- E[-11,]
 G1 <- eye(8)
+G1
 G2 <- matrix(rep(0, 80), 8, 10)
+G2
 b2 <- c(266, 223, 140, 264, 137, 67, 130, 24) 
 G <- cbind(G1, G2, b2)
 M <- rbind(E, G)
