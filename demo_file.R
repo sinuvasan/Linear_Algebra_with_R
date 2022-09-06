@@ -2,11 +2,13 @@
 v1 <- c(2, -1, 3) 
 v2 <- c(-1, 0, 4) 
 v1 + v2 
-A<- matrix(c(3, 0, -5, -1, -3, 4), nrow = 2, ncol = 3, byrow = TRUE) 
+A <- matrix(c(3, 0, -5, -1, -3, 4), nrow = 2, ncol = 3, byrow = TRUE) 
 B <- matrix(c(-5, 5, 2, 1, -2, 0), nrow = 2, ncol = 3, byrow = TRUE) 
 A+B
 A<- matrix(c(3, 0, -5, -1, -3, 4), nrow = 2, ncol = 3, byrow = TRUE) 
 -3*A
+
+
 v1 <- c(2, -1, 3) 
 v2 <- c(-1, 0, 4) 
 v1 %*% v2 
@@ -27,7 +29,7 @@ library(matlib)
 #2 by 2
 A<-matrix(c(1,1,2,1),2,2,byrow = TRUE)
 b<-matrix(c(4,5),2,1,byrow = TRUE)
-solve(A,b)
+Solve(A,b)
 plotEqn(A,b)
 
 # 3 by 3
@@ -62,6 +64,7 @@ Solve(A,b)
 
 
 plotEqn3d(A,b)
+
 A<-matrix(c(1,2,1,1,4,5,2,5,3),nrow=3,ncol=3)
 
 b<-c(4,5,1)
@@ -70,11 +73,13 @@ Solve(A,b)
 
 plotEqn3d(A,b)
 
+
+
 # Echelon form 
 A<-matrix(c(0,-1,1,0,1,1,0,1,3,-4,2,0,-1,0,4,-4),4,4)
 b <- c(1,1,5,-2)
 showEqn(A,b)
-echelon(A,b,verbose=T,fractions=T)
+echelon(A,b,verbose=F,fractions=T)
 
 
 library(matlib)

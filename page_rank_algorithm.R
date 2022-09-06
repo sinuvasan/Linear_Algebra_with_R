@@ -21,5 +21,5 @@ powerIteration <- function(A, r, n) {
   return (Iter %*% r)
   
 }
-powerIteration(B,r,20)
+powerIteration(B,r,50)
 

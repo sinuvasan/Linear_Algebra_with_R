@@ -9,3 +9,6 @@ R
 Ainv <- R[, 5:8]
 Ainv
 inv(A)
+
+
+

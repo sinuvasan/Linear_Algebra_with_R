@@ -14,6 +14,7 @@ p2 <- ggplot(d, aes(x = X1, y = X2)) + geom_point(alpha = .5) + geom_density_2d(
 p2
 y <- x - mu
 E <- eigen(sigma)
+E
 E$vectors
 y <- y %*% t(inv(E$vectors))
 dd <- data.frame(y)
